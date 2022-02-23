@@ -1,0 +1,29 @@
+.fashion{
+    color: var(--color-primary);
+    background-color: black;
+
+    &__title{
+         
+        &--main{
+            text-transform: uppercase;
+        }
+
+        &--sub{
+            span:nth-child(2) {
+                margin-left: .2rem;
+                background-color: black;
+            }
+        }
+    }
+}
+
+.home{
+    &--fashion {
+        height: 50vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-blend-mode: hard-light;
+    }
+}

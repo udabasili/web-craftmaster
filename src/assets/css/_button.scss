@@ -1,0 +1,60 @@
+/*===========================
+     BUTTONS 
+===========================*/
+.main-btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid black;
+  padding: 0 35px;
+  font-size: 16px;
+  line-height: 48px;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  margin: 2rem 0;
+  z-index: 5;
+  transition: all 0.4s ease-out 0s;
+  background-color: black; 
+}
+  
+@media (max-width: 767px) {
+    .main-btn {
+      font-size: 14px;
+      padding: 0 25px;
+      line-height: 43px; 
+    } 
+}
+  
+.main-btn i {
+    font-size: 12px;
+    margin-left: 5px; 
+}
+  
+.main-btn:hover {
+    opacity: .8;
+    text-decoration: none;
+
+}
+  
+.main-btn.main-btn-2 {
+    background-color: #fff;
+    color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark); 
+}
+    
+.main-btn.main-btn-2:hover {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+    color: #fff; 
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+
+iframe {
+    display: none;
+}

@@ -1,0 +1,50 @@
+.navigation{
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    background-color: green;
+    top: 0;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    display: flex;
+    max-height: 10vh;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__icon{
+        width: 2rem;
+        height: 2rem;
+        color: white;
+        fill: white;
+    }
+
+    &__text{
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        padding-left: 1rem;
+    }
+}
+
+.auth{
+    margin: 0 !important;
+
+    li {
+        list-style: none;
+        font-size: 1rem;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
