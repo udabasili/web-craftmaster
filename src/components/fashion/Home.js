@@ -16,9 +16,7 @@ export default function Home({
                         src='https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80'>
 
                     </img>
-            </header>
-            <div id="container10" className="container default full screen">
-                <div className="inner d-flex flex-column">
+                    <div className="inner d-flex flex-column text-content">
                     <h1 
                         id="text11" 
                         className="header-1 text-center" onClick={e => selectItem(e.target, 'text')}>
@@ -34,7 +32,7 @@ export default function Home({
                         Get Started
                     </button>
                 </div>
-        </div>
+            </header>
         </>
     );
 }

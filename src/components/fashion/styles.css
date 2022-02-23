@@ -606,7 +606,7 @@ p.style2 mark {
 
 #container06>.wrapper {
     width: 100%;
-    max-width: 40rem;
+    
 }
 
 #container06.default>.wrapper>.inner>* {
@@ -900,7 +900,7 @@ p.style2 mark {
 
 #container07>.wrapper {
     width: 100%;
-    max-width: 40rem;
+    
 }
 
 #container07.default>.wrapper>.inner>* {
@@ -1045,7 +1045,7 @@ p.style2 mark {
 
 #container02>.wrapper {
     width: 100%;
-    max-width: 40rem;
+    
 }
 
 body.is-touch #container02 {
@@ -3508,8 +3508,9 @@ body.is-touch #container02 {
 }
 
 .image--home{
-    width: 70%;
-    height: auto
+    width: 100%;
+    height: 100%;
+    object-fit: cover
 }
 
 /* img:hover {
@@ -3595,4 +3596,10 @@ h1, h2 {
 
 p {
     color: black
+}
+
+.text-content {
+    position: absolute;
+    background-color: white;
+    padding: 1rem 10rem
 }
